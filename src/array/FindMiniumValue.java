@@ -5,6 +5,10 @@ package array;
  * The array is originally sorted.
  * @author Hang
  *
+ * e.g: 
+ * original: [1, 3, 4, 5, 7, 8]
+ * rotated: [4, 5, 7, 8, 1, 3]
+ * output: 1
  * time complexity O(logN) space complexity O(1)
  */
 

@@ -22,5 +22,8 @@ public class FindMiniumValueTest {
 
         int[] b = {2, 3, 0, 1};
         assertTrue(searchMin(b, 0, b.length - 1) == 0);
+
+        int[] c = {2, 3, 4, 0, 1};
+        assertTrue(searchMin(c, 0, b.length - 1) == 0);
     }
 }

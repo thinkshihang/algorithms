@@ -21,4 +21,8 @@
 .idea/gradle.xml
 .idea/libraries
 
+# Maven test
+target/test-classes/
+
+
 /out/

@@ -8,7 +8,7 @@ import java.util.Arrays;
  * before begin to design algorithms, make sure:
  * 1. case sensitive or not ?
  * 2. is whitespace significant ?
- * 3. only contains ASCII ? 
+ * 3. only contains ASCII ?
  */
 public class CC150_1_3_PermutationCheck {
 
@@ -49,7 +49,7 @@ public class CC150_1_3_PermutationCheck {
             return false;
         }
 
-        int[] letters = new int[256];       // assumption: only contains
+        int[] letters = new int[256];       // assumption: only contains ASCII
         for (int i = 0; i < s.length(); ++i) {
             char c = s.charAt(i);
             letters[c]++;

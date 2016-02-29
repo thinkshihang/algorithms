@@ -23,6 +23,7 @@
 
 # Maven test
 target/test-classes/
+target/classes/
 
 
 /out/

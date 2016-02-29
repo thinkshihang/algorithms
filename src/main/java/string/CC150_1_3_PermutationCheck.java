@@ -2,6 +2,14 @@ package string;
 
 import java.util.Arrays;
 
+/**
+ * Given two string, write a method to decide if one is a permutation of the other.
+ *
+ * before begin to design algorithms, make sure:
+ * 1. case sensitive or not ?
+ * 2. is whitespace significant ?
+ * 3. only contains ASCII ? 
+ */
 public class CC150_1_3_PermutationCheck {
 
     public static String sort(String s) {
@@ -41,7 +49,7 @@ public class CC150_1_3_PermutationCheck {
             return false;
         }
 
-        int[] letters = new int[256];
+        int[] letters = new int[256];       // assumption: only contains
         for (int i = 0; i < s.length(); ++i) {
             char c = s.charAt(i);
             letters[c]++;
